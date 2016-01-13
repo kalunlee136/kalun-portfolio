@@ -1,0 +1,209 @@
+body {
+      font-size: 16px;
+      line-height: 1.5em;
+      font-family: 'Quattrocento Sans', sans-serif;
+ }
+
+h1, h2, h3, h4, h5, h6 { 
+  font-family: 'Ariel', serif; font-weight: 700; color: rgba(26, 26, 26, 0.73);
+  text-decoration: underline; 
+}
+
+h2{
+    font-size: 38px;
+    line-height: 3.0625rem;
+    font-weight: 300;
+    text-transform:uppercase;
+}
+
+.title{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 24px;
+}
+.navbar-header{
+  width: 100%;
+}
+
+#me{
+  background-image:url(../images/kalun.jpg);
+  min-width:102px;
+  min-height:103px;
+  border-radius: 50%;
+  margin: 50px auto;
+}
+
+header{
+  padding: 40px;
+}
+
+.jumbotron > header{
+  padding: 0px 40px 20px 40px;
+}
+.move-right{
+  margin-left:20px;
+}
+
+.navbar-default {
+    background-color: white;
+    border-color: white;
+    border-bottom: 1px solid #DFDFDF;
+}
+a.scroll{
+  margin-left:0;
+}
+
+.nav>li>a {
+  padding-left:0;
+  padding-right: 20px;
+}
+
+collapse, navbar-collapse{
+  padding:0;
+}
+
+
+#home {
+    background: url('http://www.wall321.com/thumbnails/detail/20120929/water%20mountains%20landscapes%20pier%20monochrome%20lakes%20greyscale%201366x768%20wallpaper_www.wall321.com_42.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+    text-align: center;
+    min-height:1000px;
+    margin-bottom:0;
+}
+
+
+.thumbnail > img{
+  height: 200px;
+  background-color:black;
+}
+
+
+.thumbnail img{
+    display: block;
+    background-color:black;
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+}
+
+.thumbnail:hover{
+  opacity: 0.5;
+
+}
+
+#pull-left{
+  padding-left:0px;
+  font-family: Montserrat,sans-serif;
+}
+
+
+.title{
+  padding-left: 15px;
+}
+
+.col-sm-9{
+  width:44.99%;
+}
+
+.row{
+  text-align:center;
+}
+
+#about h2{
+  text-align:center;
+}
+
+#about p{
+  color:#737373;
+  width:60%;
+  margin:0 auto;
+}
+#projects{
+  margin-bottom:50px;
+}
+
+#about .container{
+  text-align:left;
+}
+
+.col-xs-12{
+  margin-bottom: 20px;
+}
+
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -15px;
+}
+
+#contact{
+  background-color:#272727;
+  color:white;
+  margin-bottom:0px;
+}
+
+#contact h2{
+  text-rendering: optimizelegibility;
+  font-family: 'Roboto Slab',serif;
+  letter-spacing: 1px;
+  color:white;
+  margin-bottom: 50px;
+}
+
+#contact .col-md-12{
+  margin-bottom:20px;
+}
+
+.left-contact{
+  float:left;
+}
+
+.right-contact{
+  float:right;
+  width: 30%;
+}
+
+.btn-fb{
+  padding-right:20px;
+}
+
+@media (max-width:767px){
+  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -15px;
+  }
+  
+  #pull-left{
+    padding-left:15px;
+  }
+  
+} 
+  
+
+@media (min-width: 550px) and (max-width: 767px){
+  .col-xs-12{
+    margin-bottom: 30px;
+    width:33%;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 680px){
+  .col-xs-12{
+    margin-bottom: 30px;
+    width:49%;
+  }
+
+}
+
+@media (max-width:440px){
+  .left-contact{
+    float:none;
+    text-align:center;
+  }
+
+  .right-contact{
+    float:none;
+
+  }
+
+}
