@@ -147,14 +147,6 @@ collapse, navbar-collapse{
   margin-bottom:0px;
 }
 
-#contact h2{
-  text-rendering: optimizelegibility;
-  font-family: 'Roboto Slab',serif;
-  letter-spacing: 1px;
-  color:white;
-  margin-bottom: 50px;
-}
-
 #contact .col-md-12{
   margin-bottom:20px;
 }
@@ -168,8 +160,12 @@ collapse, navbar-collapse{
   width: 30%;
 }
 
-.btn-fb{
-  padding-right:20px;
+.col-md-12 > a{
+  color:white;
+}
+
+.col-md-12 > a{
+  color:white;
 }
 
 @media (max-width:767px){
