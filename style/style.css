@@ -16,12 +16,16 @@ h2{
     text-transform:uppercase;
 }
 
+h3{
+  color:white;
+}
 .title{
   font-family: 'Montserrat',sans-serif;
   font-size: 24px;
 }
 .navbar-header{
   width: 100%;
+  float: right;
 }
 
 #me{
@@ -203,6 +207,7 @@ collapse, navbar-collapse{
 
   .right-contact{
     float:none;
+    width:60%;
 
   }
 
