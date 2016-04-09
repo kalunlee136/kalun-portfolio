@@ -1,4 +1,5 @@
 $(document).ready(function (){
+
     //slow scrolling
     $(".scroll").click(function(event){
          event.preventDefault();
@@ -12,4 +13,6 @@ $(document).ready(function (){
          //go to destination
          $('html,body').animate({scrollTop:dest}, 1000,'swing');
      });
+
+    
 })

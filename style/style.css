@@ -75,27 +75,6 @@ collapse, navbar-collapse{
 }
 
 
-.thumbnail > img{
-  height: 200px;
-  background-color:black;
-}
-
-
-.thumbnail img{
-    display: block;
-    background-color:black;
-    -webkit-transition: all 0.5s linear;
-       -moz-transition: all 0.5s linear;
-        -ms-transition: all 0.5s linear;
-         -o-transition: all 0.5s linear;
-            transition: all 0.5s linear;
-}
-
-.thumbnail:hover{
-  opacity: 0.5;
-
-}
-
 #pull-left{
   padding-left:0px;
   font-family: Montserrat,sans-serif;
@@ -177,6 +156,33 @@ collapse, navbar-collapse{
 
 .col-md-12 > a:hover{
   color:white;
+}
+
+/*
+  dark layer over images when hovering
+*/
+.thumbnail > img{
+  height: 200px;
+}
+
+.thumbnail:after{
+    position:absolute;
+    opacity:0;
+    border-radius: 4px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.thumbnail:after {
+    content: '\A';
+    width: 90%;
+    height: 93%;
+    top: 0;
+    left: 5%;
+    background: rgba(0,0,0,0.6)
+}
+
+.thumbnail:hover:after{
+    opacity:1;
 }
 
 @media (max-width:767px){
